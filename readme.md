@@ -7,7 +7,7 @@ This project contains two scripts (`bulk-invite.py` and `bulk-invite-no-name.py`
 ## 1. Download the project from GitHub
 
 ````bash
-git clone <URL_DEL_REPOSITORY>
+git clone https://github.com/usemoslinux/bulk-invite.git
 cd bulk-invite
 ````
 
@@ -52,7 +52,7 @@ python bulk-invite-no-name.py
 
 ### 5.1. When to use each script?
 
-a) bulk-invite.py
+#### a) bulk-invite.py
 
 Usage: for nominated invites.
 
@@ -69,7 +69,7 @@ Features:
 - The text of the invitation is superimposed on this background.
 - The text color is defined in `invite_text_color` in config.yaml.
 
-b) bulk-invite-no-name.py
+#### b) bulk-invite-no-name.py
 
 Use: for generic invitations addressed to a wide audience (e.g., the entire resident community).
 
@@ -83,9 +83,9 @@ Features:
 
 ## 6. Additional notes
 
-It is suggested to review and customize the configuration files (`config.yaml`) and templates (`templates/`) before running the scripts.
+It is suggested to review and customize the configuration files (`config.yaml`) and templates (`templates/`) before running the scripts. Examples are provided in English and Spanish, where the spaces between brackets should be replaced with the corresponding information. Markers starting with the dollar sign ($) are used as placeholders for the fields in `guests.csv`.
 
-The fonts supported by reportlab to build the cards are: ‘Courier’, ‘Courier-Bold’, ‘Courier-BoldOblique’, ‘Courier-Oblique’, ‘Helvetica’, ‘Helvetica-Bold’, ‘Helvetica-BoldOblique’, ‘Helvetica-Oblique’, ‘Symbol’, ‘Times-Bold’, ‘Times-BoldItalic’, ‘Times-Italic’, ‘Times-Roman’, ‘ZapfDingbats’. This change must be made directly in the corresponding .py file.
+The fonts supported by reportlab to build the cards are: __'Courier', 'Courier-Bold', 'Courier-BoldOblique', 'Courier-Oblique', 'Helvetica', 'Helvetica-Bold', 'Helvetica-BoldOblique', 'Helvetica-Oblique', 'Symbol', 'Times-Bold', 'Times-BoldItalic', 'Times-Italic', 'Times-Roman', 'ZapfDingbats'__. This change must be made directly in the corresponding .py file.
 
 The generated PDFs are saved in the `output/invites` folder.
 

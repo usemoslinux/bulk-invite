@@ -7,7 +7,7 @@ Este proyecto contiene dos scripts (`bulk-invite.py` y `bulk-invite-no-name.py`)
 ## 1. Descargar el proyecto desde GitHub
 
 ```bash
-git clone <URL_DEL_REPOSITORIO>
+git clone https://github.com/usemoslinux/bulk-invite.git
 cd bulk-invite
 ```
 
@@ -52,7 +52,7 @@ python bulk-invite-no-name.py
 
 ### 5.1. ¿Cuándo usar cada script?
 
-a) bulk-invite.py
+#### a) bulk-invite.py
 
 Uso: para invitaciones nominadas.
 
@@ -68,7 +68,7 @@ Características:
 - Usa un fondo definido en `assets_bg` (`config.yaml`), que debería incluir el logo oficial y nada más. - El texto de la invitación se superpone a este fondo.
 - El color del texto está definido en `invite_text_color` en `config.yaml`.
 
-b) bulk-invite-no-name.py
+#### b) bulk-invite-no-name.py
 
 Uso: para invitaciones genéricas dirigidas a un público amplio (por ejemplo, toda la comunidad residente).
 
@@ -82,9 +82,9 @@ Características:
 
 ## 6. Notas adicionales
 
-Se sugiere revisar y personalizar los archivos de configuración (`config.yaml`) y las plantillas (`templates/`) antes de ejecutar los scripts.
+Se sugiere revisar y personalizar los archivos de configuración (`config.yaml`) y las plantillas (`templates/`) antes de ejecutar los scripts. Se proveen ejemplos en inglés y español, donde se deberán reemplazar los espacios entre corchetes con la información correspondiente. Los marcadores que comienzan con el signo pesos se utilizan como marcadores de posición para colocar los campos correspondientes del archivo `guests.csv`.
 
-Los tipos de letra soportados por reportlab para construir los tarjetones son: 'Courier', 'Courier-Bold', 'Courier-BoldOblique', 'Courier-Oblique', 'Helvetica', 'Helvetica-Bold', 'Helvetica-BoldOblique', 'Helvetica-Oblique', 'Symbol', 'Times-Bold', 'Times-BoldItalic', 'Times-Italic', 'Times-Roman', 'ZapfDingbats'. Este cambio debe realizarse directo en el archivo .py correspondiente.
+Los tipos de letra soportados por reportlab para construir los tarjetones son: __'Courier', 'Courier-Bold', 'Courier-BoldOblique', 'Courier-Oblique', 'Helvetica', 'Helvetica-Bold', 'Helvetica-BoldOblique', 'Helvetica-Oblique', 'Symbol', 'Times-Bold', 'Times-BoldItalic', 'Times-Italic', 'Times-Roman', 'ZapfDingbats'__. Este cambio debe realizarse directo en el archivo .py correspondiente.
 
 Los PDFs generados se guardan en la carpeta `output/invites`.
 
