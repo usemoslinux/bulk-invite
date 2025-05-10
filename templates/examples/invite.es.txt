@@ -1,0 +1,16 @@
+El Embajador de [PAIS]<br/>
+<b>[NOMBRE_EMBAJADOR]</b><br/>
+tiene el placer de invitar a <br/><br/>
+<b><i>$guest_name</i></b><br/><br/>
+a una recepción con motivo del <br/>
+<b>[NOMBRE_EVENTO]</b><br/>
+el [FECHA], <br/>
+de [HORA_COMIENZO] a [HORA_FIN]
+---
+R.S.V.P. (antes del 16 de mayo) <br/>
+<a href="mailto:[MAIL_EMBAJADA]?subject=Confirmación de invitación de la Embajada de [PAIS]: ID $guest_id">[MAIL_EMBAJADA]</a>
+---
+[DIRECCION_EVENTO_LINEA_1]<br/>
+[DIRECCION_EVENTO_LINEA_2]
+---
+No olvide traer esta invitación (ID: $guest_id)

@@ -1,0 +1,16 @@
+The Ambassador of the [COUNTRY_NAME]<br/>
+<b>[AMBASSADOR_NAME]</b><br/>
+has the pleasure of inviting <br/><br/>
+<b><i>$guest_name</i></b><br/><br/>
+to a reception on the occasion of the <br/>
+<b>[EVENT_NAME]</b><br/>
+on [FULL_DATE], <br/>
+from [START_TIME] to [END_TIME]
+---
+R.S.V.P. (before May 16) <br/>
+<a href="mailto:[EMBASSY_EMAIL]?subject=Confirmation of invitation from the [COUNTRY_NAME] Embassy: ID $guest_id">[EMBASSY_EMAIL]</a>
+---
+[ADDRESS_LINE_1]<br/>
+[ADDRESS_LINE_2]
+---
+Don't forget to bring this invitation (ID: $guest_id)

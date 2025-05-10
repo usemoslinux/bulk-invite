@@ -1,0 +1,1 @@
+No olvide traer esta invitación (ID: $guest_id)

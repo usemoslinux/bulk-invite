@@ -1,0 +1,11 @@
+Invitation<br/>
+<b>Main</b><br/>
+text<br/><br/>
+---
+R.S.V.P. (before May 16) <br/>
+<a href="mailto:mail@example.org?subject=Confirmation of invitation from .......: ID $guest_id">mail@example.org</a>
+---
+Address line 1<br/>
+Address line 2
+---
+Don't forget to bring this invitation (ID: $guest_id)

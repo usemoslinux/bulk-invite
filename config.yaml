@@ -1,0 +1,16 @@
+smtp_host: "smtp.example.org"
+smtp_port: 465
+smtp_user: "user"
+smtp_password: "password"
+from_name: "Embassy of ..."
+from_address: "mail@example.org"
+assets_bg: "assets/background.webp"
+assets_bg_no_name: "assets/background-no-name.webp"
+guests_csv: "guests.csv"
+seconds_to_wait: 1
+invite_template: "templates/invite.txt"
+invite_template_no_name: "templates/invite-no-name.txt"
+invite_text_color: "#000000"
+email_template: "templates/email.html"
+email_template_no_name: "templates/email-no-name.html"
+email_subject: "Invitation to ..."
