@@ -78,7 +78,7 @@ def send_email(guest, email_html, pdf_path, config, subject):
             filename=os.path.basename(pdf_path)
         )
 
-    timeout = 10
+    timeout = 20
 
     with smtplib.SMTP_SSL(config['smtp_host'], config['smtp_port'], timeout=timeout) as smtp:
         smtp.login(config['smtp_user'], config['smtp_password'])
